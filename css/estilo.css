@@ -35,3 +35,35 @@
 
 /* NÃO ALTERE DAQUI PRA CIMA */
 /* ESCREVA SEU CÓDIGO ABAIXO */
+
+#layout{
+  display: flex;
+  width: 800px;
+  height: 600px;
+  background-color:#999;
+  flex-direction: column;
+
+}
+.Div1{
+ display: flex;
+ background-color:darkviolet;
+ flex: 2;
+}
+.Div2{
+ display: flex;
+ background-color:rgba(90, 19, 141, 0.884);
+ flex-direction: row;
+ flex: 1;
+}
+.Div11{
+ display: flex;
+ background-color:rgba(147, 82, 175);
+ flex-direction: row;
+ flex: 2;
+}
+.Div12{
+ display: flex;
+ background-color:rgba(205, 116, 243, 0.842);
+ flex-direction: row;
+ flex: 2;
+}

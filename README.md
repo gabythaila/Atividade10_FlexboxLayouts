@@ -1,2 +1,2 @@
-# Atividade10_FlexboxLayouts
+# flexbox-atv
 Nome: Gabrielly Thaila Moreira de Azevedo
