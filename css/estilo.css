@@ -92,31 +92,32 @@
   display: flex;
   flex-direction: row;
   flex: 1;
-  background-color:rgba(252, 0, 134, 0.329);
+  background-color:rgba(204, 11, 114, 0.899);
 }
 .DivFlor{
   display: flex;
   flex-direction: row;
   flex: 2;
-  background-color:rgba(246, 2, 132, 0.833);
+  background-color:rgba(250, 9, 138, 0.541);
 }
 .DivArv{
   display: flex;
   flex-direction: row;
   flex: 1;
-  background-color:rgba(161, 4, 88, 0.77);
+  background-color:rgba(239, 53, 152, 0.805);
 }
 #divmenu{
-  background-color:rgba(176, 19, 103, 0.871);
+  background-color:rgba(222, 32, 133, 0.871);
   flex:1;
 }
 #divcontent{
-  background-color:rgba(228, 48, 144, 0.888);
+  background-color:rgba(233, 142, 190, 0.888);
   flex:2;
+  flex-direction: column;
 }
 #divad{
-  background-color:rgba(189, 16, 108, 0.741);
-  flex:1;
+  background-color:rgba(249, 14, 139, 0.741);
+  flex: 1;
 }
 #divmenu ul{
   list-style: none;
@@ -135,6 +136,68 @@
   text-decoration: none;
   font-size: 0.8rem;
   width: auto;
+}
+#divcontent p{
+  font-size: 12px;
+  padding: 12px 10px;
+  border-radius: 8px;
+  width: 300px;
+}
+#layout3{
+  display: flex;
+  width: 1000px;
+  height: 700px;
+  background-color:#ffffff;
+  flex-direction: row;
+  align-items: center;
+}
+.D1{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color:rgba(147, 6, 6, 0.899);
+  width: 250px;
+  height: 200px;
+}
+.D2{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color:rgba(226, 5, 5, 0.899);
+  width: 250px;
+  height: 250px;
+}
+.D3{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color:rgba(219, 71, 90, 0.899);
+  width: 200px;
+  height: 100px;
+}
+.D4{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color:rgba(249, 134, 134, 0.899);
+  width: 250px;
+  height: 300px;
+}
+.D5{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color:rgba(243, 5, 5, 0.974);
+  width: 250px;
+  height: 500px;
+}
+.D6{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color:rgba(135, 16, 16, 0.899);
+  width: 250px;
+  height: 150px;
 }
 
 
